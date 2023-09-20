@@ -45,7 +45,7 @@ p {
 }
 
 .contenedor {
-    height: 100px;
+    height: 120px;
     width: 400px;
     background-color: #6f1b59; /* Color del Inter de Miami */
     display: flex;
