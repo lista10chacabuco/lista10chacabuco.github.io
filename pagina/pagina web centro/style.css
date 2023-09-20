@@ -3,71 +3,124 @@
     src: url('fuente/Akira\ Expanded\ Demo.otf');
 }
 
-html{
-    background-color:#0d0c0c;
-    /*#f9f6ec */
+html {
+    background-color: #0d0c0c;
 }
-.centrar{
+
+.centrar {
     margin-top: 5%;
 }
-.inicio{
-    display:flex;
+
+.inicio {
+    display: flex;
     justify-content: center;
     text-align: center;
     vertical-align: middle;
+    line-height: 20px;
 }
 
-.propuestas{
-    line-height: 15px;
+.propuestas {
+    line-height: 20px;
     vertical-align: middle;
 }
 
-ul{
-    font-size: 9px;
+ul {
+    font-size: 15px;
     color: #88a1a8;
     font-family: fuente;
 }
 
-h1{
+h1 {
     margin-top: 1%;
-    font-size: 30px;
-    color:#790614;
+    font-size: 40px;
+    color: #2a8bf2; /* Color del Inter de Miami */
     font-family: fuente;
 }
-p{
-    font-size: 10px;
+
+p {
+    font-size: 15px;
+    line-height: 30px;
     color: #88a1a8;
     font-family: fuente;
 }
 
-.contenedor{
+.contenedor {
     height: 100px;
     width: 400px;
-    background-color: #502940;
+    background-color: #6f1b59; /* Color del Inter de Miami */
     display: flex;
     border-radius: 10px;
     align-items: center;
     margin-left: 2%;
-    margin-top: 2%;
-
+    margin-top: 10%;
 }
 
-#foto{
-    height: 75px;
-    width: 75px;
-    margin-left: 20px;
-    border-radius: 5px;
-}
 
-.datos{
+.datos {
     margin-left: 5%;
     margin-top: 1%;
+    line-height: 20px;
 }
 
-.participantes{
+.participantes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     margin-bottom: 40%;
+}
+
+img{
+    margin-top: 10%;
+    max-width: 800px;
+    height: auto;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 600px) {
+    .contenedor {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    
+    #foto {
+        margin-left: 10px;
+    }
+    
+    .datos {
+        margin-left: 10px;
+    }
+    
+    .participantes {
+        margin-bottom: 20%;
+    }
+
+    img{
+        margin-top: 10%;
+        max-width: 500px;
+        height: auto;
+    }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .contenedor {
+        width: 300px;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+
+    img{
+        margin-top: 10%;
+        max-width: 500px;
+        height: auto;
+    }
+    
+    /* Agrega aquí los estilos específicos para pantallas medianas */
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1025px) {
+    /* Agrega aquí los estilos específicos para pantallas grandes */
 }
