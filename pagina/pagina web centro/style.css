@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color: #F7B5CD;
+    background-color: #ff2072;
 }
 
 .centrar {
@@ -33,6 +33,7 @@ ul {
 h1 {
     margin-top: 1%;
     font-size: 40px;
+    text-align: center;
     color: #231F20; /* Color del Inter de Miami */
     font-family: fuente;
 }
