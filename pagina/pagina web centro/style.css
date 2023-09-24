@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'fuente';
-    src: url('fuente/Akira\ Expanded\ Demo.otf');
+    src: url('Akira Expanded Demo.otf');
 }
 
 html {
-    background-color: #E38CBC  ;
+    background-color: #ff2072;
 }
 
 .centrar {
@@ -46,9 +46,9 @@ p {
 }
 
 .contenedor {
-    height: 150px;
-    width: 450px;
-    background-color: #FCB4DC  ; /* Color del Inter de Miami */
+    height: 120px;
+    width: 400px;
+    background-color: #ffffff; /* Color del Inter de Miami */
     display: flex;
     border-radius: 10px;
     align-items: center;
@@ -68,14 +68,29 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin-bottom: 40%;
+
 }
 
 img{
     margin-top: 10%;
     max-width: 400px;
     height: auto;
+
 }
+
+
+#sugerencias legend{
+
+    font-size: 30px;
+    font-family: fuente;
+}
+
+
+
+
+
+
+
 
 /* Estilos para pantallas pequeñas */
 @media (max-width: 600px) {
