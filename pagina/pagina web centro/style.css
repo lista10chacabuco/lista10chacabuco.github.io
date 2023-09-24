@@ -17,11 +17,13 @@ html {
     text-align: center;
     vertical-align: middle;
     line-height: 20px;
+    font-family: fuente;
 }
 
 .propuestas {
     line-height: 20px;
     vertical-align: middle;
+    font-family: fuente;
 }
 
 ul {
@@ -77,16 +79,6 @@ img{
     height: auto;
 
 }
-
-
-#sugerencias legend{
-
-    font-size: 30px;
-    font-family: fuente;
-}
-
-
-
 
 
 
